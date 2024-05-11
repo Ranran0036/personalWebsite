@@ -16,14 +16,20 @@
     --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
 
     --vt-c-text-light-1: var(--vt-c-indigo);
-    --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+    --vt-c-text-light-2: rgba(253, 65, 65, 0.66);
     --vt-c-text-dark-1: var(--vt-c-white);
     --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+    --vt-v-gradient-color: linear-gradient(
+        to top right,
+        rgba(236, 162, 162, 0.2),
+        rgba(247, 38, 236, 0.2),
+        rgba(45, 243, 71, 0.2)
+    );
 }
 
 /* semantic color variables for this project */
 :root {
-    --color-background: var(--vt-c-white);
+    --color-background: var(--vt-v-gradient-color);
     --color-background-soft: var(--vt-c-white-soft);
     --color-background-mute: var(--vt-c-white-mute);
 
